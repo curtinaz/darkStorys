@@ -27,6 +27,22 @@ body {
     top: 1em;
 }
 
+.p1 {
+    font-size: small;
+}
+
+.bg-card {
+    background-color: #1b1b1b;
+}
+
+.card {
+    --bs-card-border-color: none;
+}
+
+.card img {
+    border-radius: 15px 15px 0 0;
+}
+
 /* Config */
 /* mixins */
 /* Styles */
