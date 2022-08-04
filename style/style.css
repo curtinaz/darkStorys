@@ -27,6 +27,18 @@ body {
     top: 1em;
 }
 
+.unselect {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -ms-touch-select: none;
+    -webkit-user-select: none;
+}
+
+.hint {
+    color: rgb(97, 97, 97);
+}
+
 .p1 {
     font-size: small;
 }
