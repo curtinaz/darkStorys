@@ -2,7 +2,7 @@ var generateButton = document.querySelector("#generateCard");
 
 generateButton.addEventListener('click', () => {
 
-    axios('http://localhost/darkStories-api/public/api/cards/random')
+    axios('https://curtinaz.dev/darkStories-api/public/api/cards/random')
         .then(function (response) {
             var dados = response.data;
 
