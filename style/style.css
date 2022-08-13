@@ -55,6 +55,19 @@ body {
     border-radius: 15px 15px 0 0;
 }
 
+#pcVault {
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+    transition: 300ms;
+    transform: scale(0.5);
+}
+
+#pcVault:hover{
+    transition: 300ms;
+    transform: scale(0.6);
+}
+
 /* Config */
 /* mixins */
 /* Styles */
